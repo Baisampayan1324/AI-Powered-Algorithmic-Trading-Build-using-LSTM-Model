@@ -1,4 +1,4 @@
-dome 
+
 # LSTM-Based Algorithmic Trading Demo
 
 This project demonstrates how to build, train, and use an LSTM model for predicting stock trading signals using historical price and technical indicators.

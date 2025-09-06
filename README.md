@@ -1,18 +1,19 @@
----
-## Disclaimer
 
-This course is intended **purely for educational purposes**.
+# LSTM-Based Algorithmic Trading Demo
+
+This project demonstrates how to build, train, and use an LSTM model for predicting stock trading signals using historical price and technical indicators.
+
+
+---
+
+# Disclaimer
+
+This repo is intended **purely for educational purposes**.
 
 The examples, models, and predictions used in this course are designed to teach how AI and LSTM models can be applied to financial data.  
 They are **not meant to provide investment advice**, nor should they be used as a basis for real-world trading.
 
 Always consult a certified financial advisor before making any financial decisions.
-
----
-
-# LSTM-Based Algorithmic Trading Demo
-
-This project demonstrates how to build, train, and use an LSTM model for predicting stock trading signals using historical price and technical indicators.
 
 ---
 

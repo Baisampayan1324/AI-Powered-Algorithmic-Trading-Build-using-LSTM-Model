@@ -1,10 +1,8 @@
-
+dome 
 # LSTM-Based Algorithmic Trading Demo
 
 This project demonstrates how to build, train, and use an LSTM model for predicting stock trading signals using historical price and technical indicators.
 
-
----
 
 # Disclaimer
 
@@ -14,8 +12,6 @@ The examples, models, and predictions used in this course are designed to teach 
 They are **not meant to provide investment advice**, nor should they be used as a basis for real-world trading.
 
 Always consult a certified financial advisor before making any financial decisions.
-
----
 
 ## Requirements
 
@@ -29,8 +25,6 @@ pip install -r requirements.txt
 
 Note: Standard libraries like `datetime`, `random`, and `collections` are used but **do not need to be installed separately**.
 
----
-
 ## Included Files
 
 - `LSTM_Part1_Training.ipynb` – Main notebook for training and backtesting
@@ -39,8 +33,6 @@ Note: Standard libraries like `datetime`, `random`, and `collections` are used b
 - `scaler.pkl` – Trained MinMaxScaler for preprocessing
 - `requirements.txt` – List of minimal required Python libraries
 - `README.md` – This file
-
----
 
 ## Running the Notebooks
 
@@ -54,15 +46,11 @@ Note: Standard libraries like `datetime`, `random`, and `collections` are used b
    - Engineer features and perform prediction.
    - Simulate trade actions using a mock broker.
 
----
-
 ## Live Prediction Notes
 
 - The model uses a **15-day window** of historical data.
 - Features used: `Close`, `Volume`, `High_Low_Range`, `Momentum_5`, `Volatility_5`, `SMA_10`, `SMA_50`
 - Ensure that data preprocessing (scaling and shaping) is **identical** to training.
-
----
 
 ## Tips
 
@@ -71,7 +59,5 @@ Note: Standard libraries like `datetime`, `random`, and `collections` are used b
   pip install yfinance joblib
   ```
 - Run the notebooks in the same environment to avoid compatibility issues.
-
----
 
 Happy Learning!
